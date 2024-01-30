@@ -1,4 +1,5 @@
-import express from "express";
+const express  = require('express');
+
 // import fs from "fs/promises";  // Using fs.promises for asynchronous file reading
 const app = express();
 const port = 8001;
