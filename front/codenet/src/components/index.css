@@ -1,0 +1,40 @@
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/free-vector/isometric-university-background_23-2148168954.jpg?w=740&t=st=1706537808~exp=1706538408~hmac=097b693f98ca2d76b3b38602445c707652ebb8e28fd2b93beacf46f03f77880f');
+    background-size: cover;
+   background-position: center;
+  }
+  
+  .login-container {
+    width: 380px;
+    padding: 20px;
+    height:50vh;
+    border: 1px solid #0e0d0d;
+    border-radius: 8px;
+    backdrop-filter:blur(20px);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  input {
+    width: 70%;
+    padding: 8px;
+    margin-top: 5px;
+    
+  }
+.on {
+    width: 70%;
+    padding: 10px;
+    background-color: #80627e;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
