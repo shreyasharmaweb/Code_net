@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    backdrop-filter:blur(20px);
+}
+.footer-section.with-video-background {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place the video behind the content */
+  }
+  
+  .hero-video--section {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the entire div */
+  }
+  
+.signup-container{
+    background-color:#a985b2;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://img.freepik.com/free-vector/isometric-university-background_23-2148168954.jpg?w=740&t=st=1706537808~exp=1706538408~hmac=097b693f98ca2d76b3b38602445c707652ebb8e28fd2b93beacf46f03f77880f');
+    background-size: cover;
+    background-position: center;
+    /* backdrop-filter:blur(20px); */
+}
+input::placeholder{
+    color: #090909;
+    /* backdrop-filter:blur(20px); */
+}
+.signupform{
+    height: 600px;
+    width: 350px;
+    background-color: antiquewhite;
+    border-radius: 8px;display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://img.freepik.com/free-photo/3d-render-secure-login-password-illustration_107791-16640.jpg?w=740&t=st=1706588477~exp=1706589077~hmac=623aa8be31abb02263603d99eb0eab59de53cd32d6c32b1f5dfa0edb09f02574');
+    background-size: cover;
+    /* backdrop-filter:blur(20px); */
+    background-position: center;
+}
+.sign{
+    font-weight: 100px;
+}
+.but_sign{
+    width: 60%;
+    background-color: #6f327e;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    backdrop-filter:blur(20px);
+}
+.form_sign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+    border-radius: 8px;
+    width: 80%;
+    height: 70%;
+    backdrop-filter:blur(4px);
+}
+.label {
+    margin-bottom: 8px;
+}
+.input {
+    padding: 8px;
+    margin-bottom: 20px;
+    border:1px solid black;
+    font-weight: 100px;
+}
+form input,.label{
+    width: 90%;
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    font-size: 20px;
+    outline: none;
+    backdrop-filter:blur(20px);
+}
