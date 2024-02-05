@@ -1,0 +1,86 @@
+.order{
+    margin-top:0%;
+    margin-left:50%;
+   
+}
+.main_l{
+    height:100vh;
+}
+.list{
+    font-size: 20px;
+    margin-left: 80px;
+    text-shadow: #2e39d7;
+    margin-top: 30%;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #2d3f57 0%,
+    #7f6a95 29%,
+    #4badc3 67%,
+    #faf9f2 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 3s linear infinite;
+  display: inline-block;
+      font-size: 75px;
+    font-size: 30px;
+    margin-left: 0%;
+    margin: 15px;
+    margin-right: 10%;
+}
+.last_s{
+    margin-left: 45%;
+    font-size: 40px;
+    color: #fff;
+    
+}
+.us{
+    margin-right:100%;
+    font-size: 70px;
+}
+.main_c{
+    display:flex;
+    gap:40px;
+}
+.circle_v{
+    border:2px solid white;
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    background-image: url('./mukesh.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.circle_d{
+    border:2px solid white;
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    background-image: url('./divya.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.circle{
+    border:2px solid white;
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    background-image: url('https://images.pexels.com/photos/5380661/pexels-photo-5380661.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+}
+.circle_s{
+    border:2px solid white;
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    background-image: url('./sachin.jpg');
+    background-size: cover;
+    background-position: center;
+}
